@@ -1,0 +1,130 @@
+.ql-container {
+    /* Set the font family and size */
+    font-family: Arial;
+    font-size: 11px;
+  
+    /* Add a 10px top margin */
+    margin-top: 10vh;
+    border:none
+  }
+  
+  .ql-toolbar  {
+    /* Set the background color and border */
+    background-color: #EADBC8;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+    z-index: 1;
+    border:none;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin: 10px auto;
+
+  }
+  
+  .ql-editor {
+    background-color: #fff;
+    border-radius: 4px;
+    max-width: 800px;
+    height:80vh;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top:1vh;
+    margin-bottom:5vh;
+    overflow: auto;
+  }
+  
+  .ql-editor p {
+    line-height: 1.5;
+    margin: 0;
+  }
+  /* Headings */
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3,
+.ql-editor h4,
+.ql-editor h5,
+.ql-editor h6 {
+  margin: 0;
+}
+
+.ql-editor .ql-color {
+    color: #333;
+  }
+  
+  .ql-editor .ql-background {
+    background-color: #f8f8f8;
+  }
+  
+  /* Lists */
+  .ql-editor ul,
+  .ql-editor ol {
+    padding-left: 1.5em;
+  }
+  
+  /* Links */
+  .ql-editor a {
+    text-decoration: underline;
+    color: #0078d4;
+  }
+  
+  /* Blockquote */
+  .ql-editor blockquote {
+    border-left: 2px solid #ccc;
+    margin: 0;
+    padding: 10px 15px;
+  }
+  
+  /* Tables */
+  .ql-editor table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .ql-editor th,
+  .ql-editor td {
+    /* border: 1px solid #ccc; */
+    padding: 8px;
+  }
+  
+  /* Images */
+  .ql-editor img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Page background */
+  body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page margins */
+  .ql-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .ql-container.ql-snow{
+    border: none;
+  }
+
+  .loginHero{
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/12910529/pexels-photo-12910529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') fixed center ;
+    /* opacity:0.4, */
+  } 
+  
+  .subLoginBg {
+    background-color: "#fffff";
+  }
